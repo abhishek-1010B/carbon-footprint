@@ -19,4 +19,5 @@ const pledgeSchema = new Schema({
 
 const Pledge = model('Pledge', pledgeSchema);
 
+
 module.exports = Pledge;

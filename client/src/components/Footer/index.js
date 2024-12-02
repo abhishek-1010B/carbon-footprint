@@ -22,7 +22,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="https://github.com/nmsiegel1/carbon-footprint"
+                  href="https://github.com/"
                   rel="noreferrer"
                   target="_blank"
                 >
@@ -37,7 +37,7 @@ function Footer() {
         </section>
         <section className=" footer-info-right">
           <div className="footer-info-copyright">
-            &copy; 2022 Carbon <span>Footsteps</span>
+            &copy; 2024 Carbon <span>Footsteps</span>
           </div>
         </section>
       </section>

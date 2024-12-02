@@ -74,39 +74,39 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="team-info">
-        {team.map((teammate) => (
-          <div className="team-container" key={teammate.name}>
-            <h2>{teammate.name}</h2>
-            <img
-              src={teammate.src}
-              alt={teammate.name}
-              style={{ width: 200 }}
-            ></img>
-            <div className="links-row">
-              <div className="links-col">
-                <a href="mailto:{teammate.email}">
-                  <h3>
-                    <Icon icon="clarity:email-line" color="#243B4A" />
-                  </h3>
-                </a>
-              </div>
-              <div className="links-col">
-                <a
-                  href={teammate.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <h4>
-                    <Icon icon="akar-icons:github-fill" color="#243B4A" />
-                  </h4>
-                </a>
-              </div>
-            </div>
-            <br />
-          </div>
-        ))}
-      </div>
+      {/* <div className="team-info"> */}
+        {/* {team.map((teammate) => ( */}
+          {/* // <div className="team-container" key={teammate.name}> */}
+            {/* <h2>{teammate.name}</h2> */}
+            {/* <img */}
+              {/* // src={teammate.src} */}
+              {/* // alt={teammate.name} */}
+              {/* // style={{ width: 200 }} */}
+            {/* // ></img> */}
+            {/* <div className="links-row"> */}
+              {/* <div className="links-col"> */}
+                {/* <a href="mailto:{teammate.email}"> */}
+                  {/* <h3> */}
+                    {/* <Icon icon="clarity:email-line" color="#243B4A" /> */}
+                  {/* </h3> */}
+                {/* </a> */}
+              {/* </div> */}
+              {/* <div className="links-col"> */}
+                {/* <a */}
+                  {/* // href={teammate.href} */}
+                  {/* // target="_blank" */}
+                  {/* // rel="noopener noreferrer" */}
+                {/* // > */}
+                  {/* <h4> */}
+                    {/* <Icon icon="akar-icons:github-fill" color="#243B4A" /> */}
+                  {/* </h4> */}
+                {/* </a> */}
+              {/* </div> */}
+            {/* </div> */}
+            {/* <br /> */}
+          {/* </div> */}
+        {/* // ))} */}
+      {/* </div> */}
     </section>
   );
 };
